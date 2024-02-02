@@ -1,4 +1,4 @@
-#Part1: Echo.py
+# Part1: Echo.py
 This python script mimics the behavior of an echo. It takes an input for the user and repeats the input with decreasing length (only shows the last 3 indexes) and ends with a "."
 
 ## Usage 
