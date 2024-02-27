@@ -1,16 +1,14 @@
 # US Population Table
 
-This simple web page displays a table showing the population of the United States over the years.
+This simple HTML web page displays a table showing the population of the United States over the years.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Usage](#usage)
-- [License](#license)
 
 ## Introduction
-
-The web page fetches population data of the United States from an external API and displays it in a table format. The population numbers are formatted with commas for better readability.
+The web page fetches population data of the United States from an external API (https://datausa.io/api/data?drilldowns=Nation&measures=Population). Then the data is parsed, sorted, and properly displayed in a table. The population numbers are formatted with commas for better readability.
 
 ## Usage
 
