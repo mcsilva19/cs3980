@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Population</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: auto; /* Adjusted width to fit content */
+        }
+        th, td {
+            border: 1px solid #a39e9e;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #a09393;
+        }
+    </style>
+</head>
+<body>
+    <h1>US Population</h1>
+    <table id="population-table">
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Population</th>
+            </tr>
+        </thead>
+        <tbody id="population-data">
+        </tbody>
+    </table>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('https://datausa.io/api/data?drilldowns=Nation&measures=Population')
+                .then(response => response.json())
+                .then(data => {
+                    const populationData = data.data.map(entry => ({
+                        year: entry.Year,
+                        population: entry.Population.toLocaleString() // Added toLocaleString() to add commas
+                    }));
+                    
+                    populationData.sort((a, b) => a.year - b.year);
+                    const tableBody = document.getElementById('population-data');
+                    populationData.forEach(entry => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `<td>${entry.year}</td><td>${entry.population}</td>`;
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+            });    
+    </script>
+</body>
+</html>
