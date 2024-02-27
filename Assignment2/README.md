@@ -17,7 +17,7 @@ The web page fetches population data of the United States from an external API (
 - 'index.html' is used to structure the web page which includes the title, heading, table, and script inclusion.
 
 ### CSS
-- 'style.css' is used to help style the table, i included border-collapse, text alignment, and padding for the aesthetic of the web page. 
+- 'style.css' is used to help style the table, I included border-collapse, text alignment, and padding for the aesthetic of the web page. 
 
 ### Javascript
 - 'script.js' is used to fetch the data from the API. In this section the data is also sorted and commas are added in order for the data to be properly showed in the table. 
