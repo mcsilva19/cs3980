@@ -7,7 +7,7 @@
     <style>
         table {
             border-collapse: collapse;
-            width: auto; /* Adjusted width to fit content */
+            width: auto;
         }
         th, td {
             border: 1px solid #a39e9e;
@@ -39,7 +39,7 @@
                 .then(data => {
                     const populationData = data.data.map(entry => ({
                         year: entry.Year,
-                        population: entry.Population.toLocaleString() // Added toLocaleString() to add commas
+                        population: entry.Population.toLocaleString() 
                     }));
                     
                     populationData.sort((a, b) => a.year - b.year);
