@@ -30,3 +30,10 @@ To view the population table:
 2. Open the `index.html` file in a web browser.
 
 The table will be populated with the US population data retrieved from the data source. 
+
+## Screenshot of Web App
+<img width="1440" alt="Screenshot 2024-02-29 at 7 53 03 PM" src="https://github.com/mcsilva19/cs3980/assets/117865397/5cc8c260-c161-49f8-89b2-368018f27859">
+
+
+<img width="1440" alt="Screenshot 2024-02-29 at 7 53 30 PM" src="https://github.com/mcsilva19/cs3980/assets/117865397/3e004e2c-8b43-4a4a-9a64-2b2dcac3fbba">
+
