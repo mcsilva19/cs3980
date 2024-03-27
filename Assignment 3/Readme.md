@@ -19,6 +19,8 @@ To install MongoDB Community Edition, please follow the guide provided below:
 
 After installation, use the connection string obtained from MongoDB Atlas to connect to the Atlas cluster.
 
+<img width="1440" alt="Screenshot 2024-03-26 at 9 28 40 PM" src="https://github.com/mcsilva19/cs3980/assets/117865397/573b2534-4f86-4af9-906f-be21da4d793c">
+
 ## 3. Run Queries using MongoDB Compass
 Once MongoDB Community Edition and MongoDB Atlas are set up, you can run queries using MongoDB Compass. Follow these steps:
 
@@ -26,12 +28,12 @@ Once MongoDB Community Edition and MongoDB Atlas are set up, you can run queries
 
 ## 4. Assignment 
 
-** Query 1: Find all movies with runtime greater than 200 minutes in year 1983. The result should include a list of objects sorted by runtime increasing, and each object only has three fields: runtime, title, year. An example result is shown in the following screenshot.
+** Query 1: Find all movies with runtime greater than 200 minutes in year 1983. The result should include a list of objects sorted by runtime increasing, and each object only has three fields: runtime, title, year. An example result is shown in the following screenshot, where the query is shown in the white text and the results in the red, green, blue text that follows. 
 <img width="1440" alt="Screenshot 2024-03-26 at 9 26 37 PM" src="https://github.com/mcsilva19/cs3980/assets/117865397/c113de80-7b3e-4a87-8163-ee40d5a0d671">
 
 <img width="1440" alt="Screenshot 2024-03-26 at 9 26 49 PM" src="https://github.com/mcsilva19/cs3980/assets/117865397/02d545f8-c1d1-4d71-8c4e-71d0b996a578">
 
 
-** Query 2: Find all movies after year 2014 with imdb rating greater than 9. An example query result is shown in the following screenshot.
+** Query 2: Find all movies after year 2014 with imdb rating greater than 9. An example result is shown in the following screenshot, where the query is shown in the white text and the results in the red, green, blue text that follows. 
 <img width="1440" alt="Screenshot 2024-03-26 at 9 27 46 PM" src="https://github.com/mcsilva19/cs3980/assets/117865397/2c3a1075-19c9-416c-91c8-01f952b30e7f">
 
