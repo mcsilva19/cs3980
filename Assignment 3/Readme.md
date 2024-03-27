@@ -24,7 +24,9 @@ Once MongoDB Community Edition and MongoDB Atlas are set up, you can run queries
 
 - **Embedded MongoDB Shell:** MongoDB Compass provides an embedded MongoDB Shell to run queries. [Learn more here](https://www.mongodb.com/docs/compass/current/embedded-shell/)
 
-Here's an example query to find the year and title of the movie with the title "Jurassic Park":
+## 4. Assignment 
 
-![Example Query](Atlas_sample_mflix.movies.png)
+#Query 1: Find all movies with runtime greater than 200 minutes in year 1983. The result should include a list of objects sorted by runtime increasing, and each object only has three fields: runtime, title, year. An example result is shown in the following screenshot.
+
+#Query 2:Find all movies after year 2014 with imdb rating greater than 9. An example query result is shown in the following screenshot.
 
