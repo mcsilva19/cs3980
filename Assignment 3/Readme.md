@@ -26,7 +26,7 @@ Once MongoDB Community Edition and MongoDB Atlas are set up, you can run queries
 
 ## 4. Assignment 
 
-# Query 1: Find all movies with runtime greater than 200 minutes in year 1983. The result should include a list of objects sorted by runtime increasing, and each object only has three fields: runtime, title, year. An example result is shown in the following screenshot.
+### Query 1: Find all movies with runtime greater than 200 minutes in year 1983. The result should include a list of objects sorted by runtime increasing, and each object only has three fields: runtime, title, year. An example result is shown in the following screenshot.
 
-# Query 2:Find all movies after year 2014 with imdb rating greater than 9. An example query result is shown in the following screenshot.
+### Query 2:Find all movies after year 2014 with imdb rating greater than 9. An example query result is shown in the following screenshot.
 
