@@ -1,6 +1,6 @@
 # MongoDB Atlas and MongoDB Community Edition Setup Guide
 
-This guide provides step-by-step instructions to set up MongoDB Atlas and MongoDB Community Edition for running queries using MongoDB Compass.
+This guide provides step-by-step instructions to set up MongoDB Atlas and MongoDB Community Edition for running queries using MongoDB Compass as well as two example queries at the end.
 
 ## 1. Sign up MongoDB Atlas
 To get started with MongoDB Atlas, follow these steps:
