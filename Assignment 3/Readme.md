@@ -28,6 +28,8 @@ Once MongoDB Community Edition and MongoDB Atlas are set up, you can run queries
 
 ## 4. Assignment 
 
+Before writing the queries I moved to the sample data that I wanted to pull from by typing "Use sample_mflix" in mongosh shell terminal.
+
 ** Query 1: Find all movies with runtime greater than 200 minutes in year 1983. The result should include a list of objects sorted by runtime increasing, and each object only has three fields: runtime, title, year. An example result is shown in the following screenshot, where the query is shown in the white text and the results in the red, green, blue text that follows. 
 <img width="1440" alt="Screenshot 2024-03-26 at 9 26 37 PM" src="https://github.com/mcsilva19/cs3980/assets/117865397/c113de80-7b3e-4a87-8163-ee40d5a0d671">
 
